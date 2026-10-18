@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Light dumbbells</title>
+    <meta
+      name="description"
+      content="Tap a muscle on the female figure and get one easy dumbbell exercise."
+    />
+    <meta name="theme-color" content="#f4efe8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23f4efe8'/%3E%3Crect x='6' y='13' width='20' height='6' rx='2' fill='%23b5522a'/%3E%3Crect x='4' y='10' width='5' height='12' rx='1.5' fill='%23241e1a'/%3E%3Crect x='23' y='10' width='5' height='12' rx='1.5' fill='%23241e1a'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-view="both">
+    <header class="top">
+      <p class="mark">Home weights</p>
+      <h1>Light dumbbells</h1>
+      <p class="lede">Tap a muscle. Do one easy move.</p>
+    </header>
+
+    <main>
+      <section class="stage" aria-label="Muscle map">
+        <div class="view-switch" role="group" aria-label="Which side to show">
+          <button type="button" data-view="both" aria-pressed="true">
+            Both
+          </button>
+          <button type="button" data-view="front" aria-pressed="false">
+            Front
+          </button>
+          <button type="button" data-view="back" aria-pressed="false">
+            Back
+          </button>
+        </div>
+
+        <div class="figures">
+          <figure class="figure" data-side="front">
+            <svg id="front-figure"></svg>
+            <figcaption>Front</figcaption>
+          </figure>
+          <figure class="figure" data-side="back">
+            <svg id="back-figure"></svg>
+            <figcaption>Back</figcaption>
+          </figure>
+        </div>
+
+        <div class="list-block">
+          <h2>Muscles</h2>
+          <div id="muscle-list" class="chips"></div>
+        </div>
+      </section>
+
+      <aside id="panel" class="panel" aria-live="polite">
+        <p class="mark">Exercises</p>
+        <h2 id="muscle-name">Pick a muscle</h2>
+        <p id="muscle-place" class="place" hidden></p>
+        <p id="muscle-intro">
+          Tap the figure, or choose a muscle from the list.
+        </p>
+        <p id="guide" class="guide" hidden></p>
+        <div id="exercise-list"></div>
+      </aside>
+    </main>
+
+    <script
+      src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js"
+      type="module"
+    ></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

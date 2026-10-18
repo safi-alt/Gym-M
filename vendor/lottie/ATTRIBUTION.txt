@@ -1,0 +1,42 @@
+Exercise animations in this folder are dotLottie files from LottieFiles
+(https://lottiefiles.com), used under the Lottie Simple License
+(https://lottiefiles.com/page/license).
+
+Vector Fitness Exercises (free exercise-library samples on LottieFiles):
+- one-arm-row.lottie — Bench one arm dumbbell row
+- deadlift.lottie — Barbell deadlift
+- hammer-curl.lottie — Alternating dumbbell hammer curl
+- bent-over-row.lottie — Barbell reverse grip bent over row
+- hip-thrust.lottie — Barbell hip thrust (bundled; glutes use glute-bridge)
+- renegade-row.lottie — Alternating renegade row
+- hip-abduction.lottie — Cable hip abduction
+- lat-pulldown.lottie — Cable close grip single arm pulldown
+- dumbbell-swing.lottie — Dumbbell swing cardio
+- overhead-triceps.lottie — Standing dumbbell overhead triceps extension
+- preacher-curl.lottie — Dumbbell one arm preacher curl
+- good-morning.lottie — Seated barbell good morning
+- kneeling-row.lottie — Single arm half kneeling cable row
+- overhead-arm-curl.lottie — Cable one arm overhead bicep curl (Vector Fitness sample)
+- lateral-raise.lottie — Same Vector Fitness sample; motion matches a dumbbell side raise
+
+Other free LottieFiles animations:
+- wide-push-up.lottie — Wide arm push up (Dinh)
+- women-arms-workout.lottie — Women arms workout (So G; bundled, not used in app)
+- sumo-squat.lottie — Dumbbell sumo squat (Bashir Ahmad)
+- woman-dumbbells.lottie — Woman using dumbbells (bezi)
+- biceps-workout.lottie — Women heavy biceps workout (So G)
+- lunge.lottie — Lunge (Dinh Bui Xuan)
+- reverse-crunch.lottie — Reverse crunches (Dinh)
+- glute-bridge.lottie — Glute bridge (1147)
+- back-workout.lottie — Back muscle workout (Ajinkya Tagwale)
+- fitness-woman.lottie — Fitness blond (Ivan)
+- squat-reach.lottie — Squat reach (Dinh)
+- hip-rotation.lottie — Single leg hip rotation (Dinh)
+- deadbug.lottie — Deadbug fitness exercise
+- bodyweight-squat.lottie — Character squat (Daniel Bogdanov)
+- weights-lift.lottie — Weights lift (Yash Goswami)
+- lifting-dumbbell.lottie — Lifting a dumbbell (hyfen)
+- seated-curl.lottie — Seated dumbbell bicep curl (Musa Ibne sultan)
+
+Bundled in this repo so the site works on GitHub Pages without hotlinking.
+Vector Fitness commercial products: https://vectorfitexercises.com/licenses
